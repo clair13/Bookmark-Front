@@ -1,8 +1,7 @@
 .header {
 
   nav {
-    padding-top: 1.0625rem;
-    padding-bottom: 1.0625rem;
+    padding: 1.0625rem 1.0625rem;
   }
   &__logo {
     
@@ -25,4 +24,13 @@
       }
     }
   }
+
+  &__links {
+    a {
+      color: $darkBlue;
+      font-size: $font-sm;
+    } 
+  }
+
+  
 }
