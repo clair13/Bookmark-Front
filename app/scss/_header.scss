@@ -4,10 +4,12 @@
     padding: 1.0625rem 1.0625rem;
   }
   &__logo {
+
+    margin-right: auto;
     
     img {
-      width: 8.8125rem;
-      height: 1.375rem;
+      width: 8.375rem;
+      height: 1.4375rem;
     }
   }
 
@@ -26,11 +28,21 @@
   }
 
   &__links {
+
+    margin-right: 1.875rem;
+
     a {
       color: $darkBlue;
       font-size: $font-sm;
-    } 
-  }
+      text-transform: uppercase;
 
-  
+      &:not(:last-child){
+        margin-right: 2.5rem;
+      }
+    }
+
+    a:hover {
+        color: $softRed;
+    }
+  } 
 }

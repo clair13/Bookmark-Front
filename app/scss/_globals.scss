@@ -34,6 +34,11 @@ a, a:visited, a:hover {
     justify-content: center;
   }
 
+  &-jc-fe {
+    justify-content: flex-end;
+  }
+
+
   &-ai-c {
     align-items: center;
   }
@@ -41,7 +46,7 @@ a, a:visited, a:hover {
 
 //Buttons
 .button {
-  padding: 1.125rem 2.8125rem;
+  padding: 0.875rem 1.875rem;
   background-color: $softRed;
   border: 0;
   border-radius: 10px;
@@ -51,6 +56,15 @@ a, a:visited, a:hover {
   font-weight: 400;
   font-size: $font-sm;
 }
+
+.button:hover {
+  background-color: $white;
+  color: $softRed;
+  margin: -1px;
+  transition-delay: easein-out 1s;
+  border: 1px solid $softRed;
+}
+
 
 //Visibility
 .hide-for-mobile {
