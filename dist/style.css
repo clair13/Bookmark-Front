@@ -86,5 +86,12 @@ a, a:visited, a:hover {
       margin-right: 2.5rem; }
   .header__links a:hover {
     color: #fa5757; }
+.header .overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: linear-gradient(#252b46, transparent); }
 
 /*# sourceMappingURL=style.css.map */
