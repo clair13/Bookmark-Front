@@ -54,6 +54,19 @@ a, a:visited, a:hover {
   .hide-for-desktop {
     display: none; } }
 
+.header.open .header_toggle > span:first-child {
+  transform: rotate(45deg); }
+.header.open .header_toggle > span:nth-child(2) {
+  opacity: 0; }
+.header.open .header_toggle > span:last-child {
+  transform: rotate(-45deg); }
+.header .overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: linear-gradient(#252b46, transparent); }
 .header nav {
   padding: 1.0625rem 1.0625rem; }
 .header__logo {
@@ -70,12 +83,6 @@ a, a:visited, a:hover {
   transform-origin: 3px 1px; }
   .header__toggle > span:not(:last-child) {
     margin-bottom: 5px; }
-.header__toggle.open > span:first-child {
-  transform: rotate(45deg); }
-.header__toggle.open > span:nth-child(2) {
-  opacity: 0; }
-.header__toggle.open > span:last-child {
-  transform: rotate(-45deg); }
 .header__links {
   margin-right: 1.875rem; }
   .header__links a {
@@ -86,12 +93,5 @@ a, a:visited, a:hover {
       margin-right: 2.5rem; }
   .header__links a:hover {
     color: #fa5757; }
-.header .overlay {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-image: linear-gradient(#252b46, transparent); }
 
 /*# sourceMappingURL=style.css.map */
