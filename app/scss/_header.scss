@@ -2,7 +2,7 @@
 
   &.open {
 
-    .header_toggle{
+    .header__toggle {
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -17,7 +17,7 @@
     }  
   }
 
-  .overlay{
+  .overlay {
     position: fixed;
     top: 0px;
     right: 0px;

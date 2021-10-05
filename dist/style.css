@@ -54,11 +54,11 @@ a, a:visited, a:hover {
   .hide-for-desktop {
     display: none; } }
 
-.header.open .header_toggle > span:first-child {
+.header.open .header__toggle > span:first-child {
   transform: rotate(45deg); }
-.header.open .header_toggle > span:nth-child(2) {
+.header.open .header__toggle > span:nth-child(2) {
   opacity: 0; }
-.header.open .header_toggle > span:last-child {
+.header.open .header__toggle > span:last-child {
   transform: rotate(-45deg); }
 .header .overlay {
   position: fixed;
