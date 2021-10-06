@@ -1,4 +1,6 @@
 .header {
+  position: relative;
+  z-index: 1;
 
   &.open {
 
@@ -27,8 +29,11 @@
   }
 
   nav {
+    position: relative;
+    background-color: $white;
     padding: 1.0625rem 1.0625rem;
   }
+
   &__logo {
 
     margin-right: auto;
