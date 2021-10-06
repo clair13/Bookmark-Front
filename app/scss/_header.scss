@@ -53,9 +53,28 @@
         margin-bottom: 5px;
       }
     }
+  }
 
+  &__menu {
+    position: absolute;
+    background: $darkBlue;
+    width: 100%;
+    opacity: 0.8;
 
-    
+    a {
+      display: block;
+      color: $white;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 5px;
+      border-bottom: 1px solid $grayishBlue;
+      padding: 1.625rem 0;
+      letter-spacing: 2px;
+    }
+
+    a:hover {
+      border: 3px solid $white;
+    }
   }
 
   &__links {

@@ -109,6 +109,22 @@ a, a:visited, a:hover {
   transform-origin: 3px 1px; }
   .header__toggle > span:not(:last-child) {
     margin-bottom: 5px; }
+.header__menu {
+  position: absolute;
+  background: #252b46;
+  width: 100%;
+  opacity: 0.8; }
+  .header__menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-bottom: 1px solid #9194a1;
+    padding: 1.625rem 0;
+    letter-spacing: 2px; }
+  .header__menu a:hover {
+    border: 3px solid white; }
 .header__links {
   margin-right: 1.875rem; }
   .header__links a {
